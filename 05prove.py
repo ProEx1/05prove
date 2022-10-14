@@ -72,11 +72,22 @@ elif answer1.lower() == "west":
         print("Feeling eyes upon you, you tear your gaze away from the lights, \njust in time to see elves of green with bows drawn. ")
         print(dash)
         answer1_west_lights_miria = input("A tall wood elf ranger named Miria puts her bow down and waves. \nDo you WAVE or RUN? ")
+        print(dash)
         if answer1_west_lights_miria.lower() == "run":
             print("You quickly turn to run, but smash directly into a tree. ")
             print("You wake up in your own bed. \nWhat a strange dream! ")
         elif answer1_west_lights_miria.lower() == "wave":
-            print("")
+            print("Miria motions for the other elves to lower their bows. \nShe beckons you to follow, and leads you to their banquet. ")
+            print("The buffet of strange and delicious foods in front of you \nmake you feel joyous and welcome. \nEverything is going to be alright. ")
+        else:
+            print("You have entered an incorrect response. \nPlease restart the program. ")
+        #print(dash)
+    elif answer1_west_lights.lower() == "yes":
+        print("You blindly run at the lights but as you reach them \nthey all go out at once leaving you confused.")
+        print("Thoughts of hunger overwhelm your senses and you wake up in your own bed. \nWhat a strange dream! ")
+    else:
+        print("You have entered an incorrect response. \nPlease restart the program. ")
+    print(dash)
 
 
 #EAST - DARKNESS
